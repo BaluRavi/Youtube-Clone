@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Uber request a ride form</title>
+    <style>
+      @font-face {
+        font-family: UberMoveBold;
+        src: url("/uber-move-2-cufonfonts/UberMoveBold.otf") format("opentype");
+      }
+      .textbox-style {
+        display: block;
+        margin: 8px 5px 5px 0;
+        padding: 10px 14px;
+        font-family: UberMoveBold;        
+        background-color: rgb(238, 238, 238);
+        border-style: none;
+        border-width: 0px;
+        color: rgb(0,0,0);
+        caret-color: rgb(0, 0, 0);
+        font-weight: normal;
+        font-size: 16px;
+        width: 300px;
+      }
+
+      p
+      {
+        font-family: UberMoveBold;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 44px;
+        margin: 0 0 25px 0;
+      }
+
+      .request-now-btn
+      {
+        color:white;
+        background-color: black;   
+        margin-top: 25px;
+        padding: 10px 15px;
+        margin-right: 10px;
+      }
+
+      .schedule-later-btn
+      {
+        color:black;        
+        margin-top: 25px;
+        padding: 10px 15px;
+        margin-right: 10px;
+        font-weight: normal;        
+        border: 0;;
+        
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>Request a ride now</p>
+    <input
+      class="textbox-style"
+      type="text"
+      placeholder="Enter pickup location"
+    />
+    <input class="textbox-style" type="text" placeholder="Enter destination" />
+
+    <button class="request-now-btn" type="submit">Request now</button>
+    <button class="schedule-later-btn" type="submit">Schedule for later</button>
+
+  </body>
+</html>
